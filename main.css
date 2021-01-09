@@ -14,6 +14,8 @@
 }
 .profile-img > img {
      border-radius: 50%;
+     width: 200px;
+     height: 200px;
      border:10px solid rgba(255,255,255,0.8) ;
 }
 body{
@@ -27,4 +29,7 @@ body{
     text-decoration: none;
     color: #fff;
 }
-
+.profile-name{
+    font-weight: bolder;
+    font-size: 35px;
+}
