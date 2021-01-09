@@ -1,0 +1,30 @@
+.profile-img, .profile-intro {
+    display: flex;
+    justify-content: center;
+}
+.profile-intro{
+    flex-direction: column;
+    align-items: center;  
+    flex-wrap: wrap;
+   
+}
+.profile-intro > p{
+    font-size:30px ;
+    height: 20px;
+}
+.profile-img > img {
+     border-radius: 50%;
+     border:10px solid rgba(255,255,255,0.8) ;
+}
+body{
+    background-color:#7E57C2 ;
+    color:#fff;
+}
+.profile-edu , .profile-skills{
+    padding: 5px 20px;
+}
+.profile-contact > ul> li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
