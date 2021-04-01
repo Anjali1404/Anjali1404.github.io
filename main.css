@@ -19,7 +19,7 @@
      border:10px solid rgba(255,255,255,0.8) ;
 }
 body{
-    background-color:#7E57C2 ;
+    background-color:#222 ;
     color:#fff;
 }
 .profile-edu , .profile-skills{
@@ -32,4 +32,19 @@ body{
 .profile-name{
     font-weight: bolder;
     font-size: 35px;
+    color: yellowgreen;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    padding: 15px 5px;
+    border-radius: 3px;
+    border: 1px solid #111;
+    background-color: #111;
+    width: 30vw;
+    box-shadow: 1px 1px 5px;
+
+    
 }
